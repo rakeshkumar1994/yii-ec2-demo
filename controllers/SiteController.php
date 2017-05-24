@@ -121,6 +121,9 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
+        /**
+        for testing our git
+        **/
         return $this->render('about');
     }
 }
