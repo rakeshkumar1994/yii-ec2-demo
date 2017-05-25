@@ -10,12 +10,14 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
+	* 
  * StudentController implements the CRUD actions for Student model.
  */
 class StudentController extends Controller
 {
     /**
      * @inheritdoc
+	 *
      */
     public function behaviors()
     {
@@ -107,8 +109,8 @@ class StudentController extends Controller
     }
 
     /**
-	*fdgkdfgkl;sdf
-     * Finds the Student model based on its primary key value.
+	*
+	 * Finds the Student model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
      * @return Student the loaded model
