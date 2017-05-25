@@ -107,6 +107,7 @@ class StudentController extends Controller
     }
 
     /**
+	*fdgkdfgkl;sdf
      * Finds the Student model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
