@@ -1,5 +1,3 @@
-<?php
-file_put_contents('.htaccess', <<<END
 <IfModule mod_rewrite.c>
     Options +SymLinksIfOwnerMatch
     RewriteEngine On
@@ -13,21 +11,3 @@ file_put_contents('.htaccess', <<<END
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^.*$ web/index.php
 </IfModule>
-END
-);
-
-if (!is_dir('web')){
-    mkdir('web');
-}
-
-file_put_contents('web/.htaccess', <<<END
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php
-END
-);
-
-unlink(__FILE__);
-header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
-
-
