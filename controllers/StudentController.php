@@ -17,7 +17,7 @@ class StudentController extends Controller
 {
     /**
      * @inheritdoc
-	 *i really frustrated
+	 *
      */
     public function behaviors()
     {
