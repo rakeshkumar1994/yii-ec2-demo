@@ -56,6 +56,9 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
      * @param string $username
      * @return static|null
      */
+	 
+	 
+	 
     public static function findByUsername($username)
     {
         foreach (self::$users as $user) {
@@ -75,6 +78,8 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
         return $this->id;
     }
 
+	
+	
     /**
      * @inheritdoc
      */
@@ -90,7 +95,7 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
     {
         return $this->authKey === $authKey;
     }
-
+/*/*fghfgdsfgdfsgsijgidfjg*/
     /**
      * Validates password
      *
