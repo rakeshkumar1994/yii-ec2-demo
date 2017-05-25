@@ -10,13 +10,14 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
-	* I dont got solution for auto deployments
+	* 
  * StudentController implements the CRUD actions for Student model.
  */
 class StudentController extends Controller
 {
     /**
      * @inheritdoc
+	 *i really frustrated
      */
     public function behaviors()
     {
@@ -108,7 +109,7 @@ class StudentController extends Controller
     }
 
     /**
-	*ghjghjgfkjfhikrujgh
+	*
 	 * Finds the Student model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
