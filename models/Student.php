@@ -6,7 +6,7 @@ use Yii;
 
 /**
  * This is the model class for table "student".
- *
+ * I KNOW BUT HOW CAN WE USED THIS
  * @property integer $id
  * @property string $name
  * @property string $address
