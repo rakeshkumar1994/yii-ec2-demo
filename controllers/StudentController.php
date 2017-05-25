@@ -10,7 +10,7 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
-	* I got solution for auto deployments
+	* I dont got solution for auto deployments
  * StudentController implements the CRUD actions for Student model.
  */
 class StudentController extends Controller
