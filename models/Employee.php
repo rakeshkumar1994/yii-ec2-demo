@@ -6,7 +6,8 @@ use Yii;
 
 /**
  * This is the model class for table "employee".
- *
+ *created by admindsgdfsg
+ *hbghgx
  * @property int $id
  * @property string $name
  * @property string $e_id
